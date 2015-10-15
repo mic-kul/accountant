@@ -1,0 +1,54 @@
+GIT
+  remote: git://github.com/mic-kul/faktura_parser
+  revision: e8d9806dca15f699bf2eae047eeae3fb109c368a
+  specs:
+    faktura_parser (0.0.1)
+      docsplit
+
+GIT
+  remote: git://github.com/mic-kul/wfirma_expenses_add
+  revision: 76d9e39de978aaf3a800374170c7a5897e808e86
+  specs:
+    wfirma_expenses_add (0.0.1)
+      capybara
+      poltergeist
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    capybara (2.5.0)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    cliver (0.3.2)
+    docsplit (0.7.6)
+    mime-types (2.6.2)
+    mini_portile (0.6.2)
+    multi_json (1.11.2)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    poltergeist (1.7.0)
+      capybara (~> 2.1)
+      cliver (~> 0.3.1)
+      multi_json (~> 1.0)
+      websocket-driver (>= 0.2.0)
+    rack (1.6.4)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    websocket-driver (0.6.2)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.2)
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faktura_parser!
+  wfirma_expenses_add!
+
+BUNDLED WITH
+   1.10.6
