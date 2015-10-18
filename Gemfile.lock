@@ -1,15 +1,15 @@
 GIT
   remote: git://github.com/mic-kul/faktura_parser
-  revision: e8d9806dca15f699bf2eae047eeae3fb109c368a
+  revision: 0974442fd6b242abed542620edb1bb5153e0d0ea
   specs:
-    faktura_parser (0.0.1)
+    faktura_parser (0.0.2)
       docsplit
 
 GIT
   remote: git://github.com/mic-kul/wfirma_expenses_add
-  revision: 76d9e39de978aaf3a800374170c7a5897e808e86
+  revision: 703284318416c015e1d1a9c0bc95fc60147a4e27
   specs:
-    wfirma_expenses_add (0.0.1)
+    wfirma_expenses_add (0.0.2)
       capybara
       poltergeist
 
